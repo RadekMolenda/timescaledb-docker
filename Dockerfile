@@ -1,6 +1,7 @@
-FROM postgres:9.6.3-alpine
+FROM mdillon/postgis:9.6-alpine
 
-MAINTAINER Timescale https://www.timescale.com
+# MAINTAINER Timescale https://www.timescale.com
+MAINTAINER Radek Molenda <radek@featureforest.pl>
 
 ENV TIMESCALEDB_VERSION 0.6.1
 
